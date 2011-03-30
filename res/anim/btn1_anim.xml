@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false"><!--oneshot=false代表動畫要Loop-->
+	<item android:drawable="@drawable/btn1_set1" android:duration="500" />
+    <item android:drawable="@drawable/btn1_set2" android:duration="500" />
+    <item android:drawable="@drawable/btn1_set3" android:duration="500" />
+    <item android:drawable="@drawable/btn1_set4" android:duration="500" />
+    <item android:drawable="@drawable/btn1_set7" android:duration="500" />
+    <item android:drawable="@drawable/btn1_set8" android:duration="500" />
+    <item android:drawable="@drawable/btn1_set9" android:duration="500" />
+    <item android:drawable="@drawable/btn1_set10" android:duration="500" />
+    <item android:drawable="@drawable/btn1_set11" android:duration="500" />
+    <item android:drawable="@drawable/btn1_set10" android:duration="500" />
+    <item android:drawable="@drawable/btn1_set11" android:duration="500" />
+    <item android:drawable="@drawable/btn1_set10" android:duration="500" />
+    <item android:drawable="@drawable/btn1_set11" android:duration="500" />
+ </animation-list>

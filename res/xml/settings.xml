@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2010 AhmyDroid by FunTrigger
+該xml資料是Setting畫面的xml佈局，使用Preference類別來定義畫面
+-->
+
+<PreferenceScreen
+    android:title="@string/set" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory
+           android:title="@string/setting_main"/>           
+      <CheckBoxPreference
+            android:key="password_set"
+            android:title="@string/password_protect"
+            android:summary="@string/password_protect_des"/>             
+      <Preference
+      		android:key="password_modify"
+      		android:title="@string/password_modify"
+      		android:dependency="password_set"/>  
+   
+      <ListPreference
+       		android:key="sensitivity"
+       		android:title="@string/sensitivity_set"
+       		android:summary="@string/sensitivity_desc"
+       		android:entryValues="@array/sensitive_entryValues"
+       		android:entries="@array/sensitive_entries"
+       		android:defaultValue="1"/>     
+           
+</PreferenceScreen>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:id="@+id/mainLayout"
+  android:orientation="vertical"
+  android:background="@color/white">
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="horizontal"
+  android:layout_marginTop="20dip"
+  android:layout_weight="1">
+  
+  <LinearLayout
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:orientation="vertical"
+   android:gravity="center"
+   android:layout_weight="1">
+	   <Button
+	     android:id="@+id/btn1"
+	     android:layout_width="120dip"
+	     android:layout_height="120dip"
+	     android:background="@drawable/btn1"/>
+       <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/fall_notify"
+         android:textColor="@color/black"/>     
+   </LinearLayout>
+   <LinearLayout
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:orientation="vertical"
+   android:gravity="center"
+   android:layout_weight="1">
+	   <Button
+	     android:id="@+id/btn2"
+	     android:layout_width="120dip"
+	     android:layout_height="120dip"
+	     android:background="@drawable/btn2"/>
+       <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/find_phone"
+         android:textColor="@color/black"/>     
+   </LinearLayout> 
+
+  </LinearLayout>
+  
+    <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="horizontal"
+  android:layout_marginBottom="2dip"
+  android:layout_weight="1">
+  
+   <LinearLayout
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:orientation="vertical"
+  android:gravity="center"
+  android:layout_weight="1">
+	   <Button
+	   	 android:id="@+id/btn3"
+	     android:layout_width="120dip"
+	     android:layout_height="120dip"
+	     android:background="@drawable/btn3"/>
+       <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/set"
+         android:textColor="@color/black"/>     
+   </LinearLayout>
+   <LinearLayout
+   android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:orientation="vertical"
+   android:gravity="center"
+   android:layout_weight="1">
+	   <Button
+	     android:id="@+id/btn4"
+	     android:layout_width="120dip"
+	     android:layout_height="120dip"
+	     android:background="@drawable/btn4"/>
+       <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/exit"
+         android:textColor="@color/black"/>     
+   </LinearLayout> 
+  
+  
+  </LinearLayout>
+<LinearLayout
+android:id="@+id/adView"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"/>
+</LinearLayout>

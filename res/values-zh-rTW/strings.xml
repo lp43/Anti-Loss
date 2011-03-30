@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<string name="app_name">手機遺失保鑣</string>
+	<string name="fall_notify">撞擊警告</string>
+	<string name="set">設定</string>
+	<string name="switch_on">啟動</string>
+	<string name="switch_off">關閉</string>
+	<string name="back">返回</string>
+	<string name="previous">上一步</string>
+	<string name="next">下一步</string>
+	<string name="on">啟動</string>
+	<string name="off">關閉</string>
+	<string name="ok">確認</string>
+	<string name="cancel">取消</string>
+	<string name="exit">離開</string>
+	<string name="about">關於</string>
+    <string name="author">作者</string>
+    <string name="copyright">版權</string>
+    <string name="report_problem">問題回報</string>
+    <string name="attention">注意</string>
+    
+ <!-- 以下是撞擊提醒裡的相關字串 -->   
+    <string name="btn1_set_des">當你的手機掉落或撞到，\n程式會警告您手機撞到了。\n\n掉手機而渾然不知者必備！</string>
+    <string name="btn1_pick_up_des">如果手機被陌生人撿走，你可以在畫面裡設定一些訊息，請他發揮愛心，幫你把手機送回來。</string>
+    <string name="pickup_default_text">你好。這是蘇豫芬的手機，請將手機轉交給王小明，他的電話是12345，謝謝！</string>
+    <string name="pickup_set">拾獲設定</string>
+    <string name="pickup_set_des">你想跟撿到手機的人說什麼？</string>
+    
+ <!-- 以下是找手機的相關字串 -->
+ 	<string name="find_phone">找手機</string>
+ 	<string name="find_phone_des">"透過簡訊來找回你的手機！\n\n1.跟你的朋友借手機\n\n2.傳你設好的關鍵字到你自己的手機(如︰\"Where is my phone?\")\n\n3.幾分鐘後，你會收到簡訊，你的手機會告訴你它的位置。"</string>
+ 	<string name="keyword_editor">編輯關鍵字</string>
+ 	<string name="cant_be_null">資料不得為空！</string>
+ 	<string name="add_success">新增成功！</string>
+ 	<string name="remove_success">刪除成功！</string>
+ 	<string name="case_sensitive">請注意大小寫的區別！</string>
+ 	
+ <!-- 以下是密碼相關字串 -->
+	<string name="password_first_title">請輸入密碼</string>
+	<string name="password_origin">請輸入原密碼</string>
+	<string name="password_can_be_null">密碼可不設</string>
+	<string name="password_second_title">請再次輸入密碼</string>
+	<string name="password_wrong">密碼輸入錯誤！</string>
+	<string name="password_saved">密碼儲存成功！</string>
+	<string name="password_dismatch">2次輸入不符，存入失敗！</string>
+    <string name="password_show">顯示密碼</string>
+ 	<string name="password_type">請輸入</string>
+ 	<string name="password_title">密碼設定</string>
+ 	
+ <!-- 以下是Notify Bar裡的字串 -->
+    <string name="startfallprotect">啟動「撞擊警告」</string>
+    <string name="startingfallprotect">「撞擊警告」執行中</string>
+    <string name="stopfallprotect">關閉「撞擊警告」</string>
+    
+    <string name="location_name">定位功能</string>
+    <string name="start_location_update">啟動定位</string>
+	<string name="stop_location_update">關閉定位</string>
+	<string name="location_updating">經緯度更新中</string>
+	<string name="no_geolocation_data">目前尚無資料</string>
+	<string name="location_update_time">更新時間︰</string>
+	
+<!-- 以下是GPS開啟的教導頁面 -->
+	<string name="GPS_title">開啟系統定位</string>
+	<string name="GPS_des1">●開啟此選項不會耗您任何電力。</string>
+	<string name="GPS_des2">●關閉此選項，會讓追蹤手機的功能失效！</string>
+	<string name="go_to">前往開啟</string>
+	<string name="please_location">●請您開啟︰\n\n[設定]→[位置與安全性]→[使用GPS衛星定位]</string>
+	
+<!-- 以下是Toast文字 -->
+	<string name="message_response">簡訊已寄出！</string>
+		
+<!-- 定位相關 -->
+	<string name="message_please_wait">手機定位中，這會花上數分鐘的時間。定位完成後將會回傳手機當前經緯度給您。</string>
+	<string name="message_nogps">手機定位功能沒有打開，無法追蹤手機位置。</string>
+	
+<!-- 設定頁面 -->
+	<string name="setting_main">主設定</string>
+	<string name="password_protect">密碼保護</string>
+	<string name="password_protect_des">啟動這個功能，防止別人看見您的隱私。</string>
+	<string name="password_close">關閉密碼保護</string>	
+	<string name="password_modify">密碼修改</string>
+	<string name="sensitivity_set">靈敏度設定</string>
+	<string name="sensitivity_desc">設定撞擊感測器的靈敏度，越低越不容易感測</string>
+	
+</resources>

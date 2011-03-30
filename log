@@ -1,0 +1,100 @@
+3/14
+v2.0.0.0
+1.程式內碼都沒有改，僅在Git中開新Branch
+2.上傳V2的SPEC於Drawable目錄內
+
+v2.0.0.1
+1.1版的畫面全刪
+2.重新開一個套件做2版
+3.畫好主畫面的圖了
+
+3/23
+v2.0.0.2
+1.霹歷遊俠可以接收SMS了
+(Gps已做，AGPS的功能還沒做)
+2.處理在新增關鍵字時，Cursor沒關好的問題
+(將Cursor設為static)
+3.
+(1)[已確認]關機再重開時，防摔有啟動嗎？有
+(2)[已確認]關著螢幕時，也能更新GPS並發出經緯度嗎(螢幕會打開)
+(3)[已確認]重開時，開關有跑掉嗎？沒有
+
+3/29
+v2.0.0.3
+1.新增icon
+2.將pickup_spic拾獲者的的圖加上白框以防Android2.3黑成一團
+
+v2.0.0.4
+
+v2.0.0.4新增功能
+1.改了一些功能的描述，更淺顯易懂
+2.解決在我的遠傳小精靈裡，APK icon沒有出現的問題
+3.MENU選單[關於]多了問題回報機制
+
+v2.0.0.5
+1.修改免費版不能回傳簡訊的問題
+2.新增編輯關鍵字裡的"大小寫有區分"字樣
+3.將Find phone改成Looking for the phone
+
+v2.0.0.6
+1.
+"When your mobile crashed, the application will alert you.\n\nThis function develops from sb who is always careless."
+改成
+"When your phone crashed, the application will alert you.\n\nThis function is developed for sb who is always careless."
+2.mobile統一改成phone
+3.notify統一改成alert
+4.
+"Hello, this is Michael's mobile, can you take it to Mandy? Her cell is 12345, thank you!"
+改成
+"Hello, this is Michael's phone, can you take it to Helen? Her phone number is 12345, thank you!"
+5.
+"Looking for the phone by SMS.\n\n1.Borrowing the phone from your friend.\n\n2.Sending the keyword which you set to your own phone.(For example: \"Where is my phone?\")\n\n3.During several minutes, you'll get location where your phone is."
+改成
+"Looking for the phone by SMS.\n\n1.Borrowing the phone from your friend.\n\n2.Sending the keyword which you set to your own phone.(For example: \"Where is my phone?\")\n\n3.After several minutes, you'll get GeoLocation in SMS that indicate where your phone is."
+6.
+●Turn on this function will not spend any battery electricity.
+改成
+●Turn on this switch will not consume your battery.
+7.
+●Trun on by this setp︰\n\nPhone[Settings]→[Location and security]→[Use GPS satellites]
+改成
+●Please turn on︰\n\nPhone[Settings]→[Location and security]→[Use GPS satellites]
+8.
+"Because you didn't turn on GPS, the program can't get location of your device."
+改成
+"Because you didn't turn on GPS, the program can't get your phone's GeoLocation."
+9.
+●If you trun off this switch in the future that WILL disable to get location.
+改成
+●If you turn off this switch in the future, the program WILL be disabled to get GeoLocation.
+10.
+Go to turn on
+改成
+Forward
+11.撞擊提醒改成撞擊警告
+
+v2.0.0.7
+1.
+"Looking for the phone by SMS.\n\n1.Borrowing the phone from your friend.\n\n2.Sending the keyword which you set to your own phone.(For example: \"Where is my phone?\")\n\n3.After several minutes, you'll get GeoLocation in SMS that indicate where your phone is."
+改成
+"Looking for the phone by SMS.\n\n1.Borrowing the phone from your friend.\n\n2.Sending the keyword which you set to your own phone.(For example: \"Where is my phone?\")\n\n3.After several minutes, you'll receive GeoLocation from SMS and indicate where your phone is."
+2.
+●Turn on this switch will not consume your battery
+改成
+●Turn on GPS will not consume your battery.
+3.
+●If you turn off this switch in the future, the program WILL be disabled to get GeoLocation.
+改成
+●If you turn off GPS in the future, the program WILL be disabled to get GeoLocation.
+
+v2.0.0.8
+1.
+"When your phone crashed, the application will alert you.\n\nThis function is developed for sb who is always careless."
+改成
+"When your phone crashed, the application will alert you.\n\nThis function develops for sb who is always careless."
+
+v2.0.1 Release
+
+v2.0.1.1
+預計功能︰
+收到簡訊時，會跳出視窗問你是否要開啟GoogleMap?

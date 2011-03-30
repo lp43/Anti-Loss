@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:fillViewport="true"
+	android:layout_weight="1">
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        
+        
+        <!-- 下面RelativeLayout區塊是圖和圖裡的拾獲者文字框 --> 
+       <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="220dip"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">   
+	  <RelativeLayout
+	    android:layout_marginTop="10dip"
+	    android:layout_width="180dip"
+        android:layout_height="210dip">
+      <ImageView
+        android:id="@+id/iv"
+        android:layout_width="180dip"
+        android:layout_height="210dip"/>
+        
+        <!-- 寫在圖裡的拾獲者告知 -->
+      <TextView
+        android:id="@+id/describe_text"
+        android:layout_width="160dip"
+        android:layout_height="110dip"
+        android:layout_margin="10dip"
+        android:textColor="@color/black"
+        android:padding="2dip"
+        android:background="@drawable/pickup_dialog"
+        android:visibility="invisible"/>
+      </RelativeLayout>
+
+
+      <!-- 右側的按鈕 -->
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="220dip"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+      <Button
+        android:id="@+id/setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set"
+        android:drawableLeft="@drawable/set_tool"
+        android:visibility="invisible"/>
+      <ToggleButton
+      	android:id="@+id/switch_btn"
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:textOn="@string/on"
+      	android:textOff="@string/off"
+      	android:checked="false"
+      	android:layout_marginTop="20dip"/>
+       </LinearLayout>
+ </LinearLayout>
+ 
+        <!-- 內文說明 -->
+        <TextView
+        android:id="@+id/desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dip"/>
+        
+        
+        </LinearLayout>
+   </ScrollView>     
+	
+   	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="54dip"
+		android:background="@android:drawable/bottom_bar"
+		android:layout_marginBottom="0dip">
+	     	<Button
+             android:id="@+id/previous"
+             android:text="@string/back"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:minWidth="@dimen/button_minWidth"
+             android:drawableLeft="@drawable/button_indicator_previous"
+             android:layout_alignParentLeft="true"
+             android:layout_centerVertical="true" />
+             
+			<Button
+             android:id="@+id/next"
+             android:text="@string/next"
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:minWidth="@dimen/button_minWidth"
+             android:drawableRight="@drawable/button_indicator_next"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true" />
+			
+        </RelativeLayout>
+        
+              <!-- Admob廣告 -->
+      <LinearLayout
+		android:id="@+id/adView"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+</LinearLayout>        

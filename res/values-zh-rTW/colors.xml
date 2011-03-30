@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<color name="brown">#996600</color>
+   
+<color name="black">#000000</color>
+<color name="blue">#005F95</color>
+
+<color name="white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<string name="app_name">Anti-Loss</string>
+	<string name="fall_notify">Crash alert</string>
+	<string name="set">Setting</string>
+	<string name="switch_on">Switch on</string>
+	<string name="switch_off">Switch off</string>
+	<string name="back">Back</string>
+	<string name="previous">Previous</string>
+	<string name="next">Next</string>
+	<string name="on">On</string>
+	<string name="off">Off</string>
+	<string name="ok">Ok</string>
+	<string name="cancel">Cancel</string>
+	<string name="exit">Exit</string>
+	<string name="about">About</string>
+	<string name="author">Author</string>
+	<string name="copyright">Copyright</string>
+	<string name="report_problem">Report the Problem</string> 
+	<string name="attention">Attention</string>
+	
+<!-- 以下是撞擊提醒裡的相關字串 --> 	
+	<string name="btn1_set_des">"When your phone crashed, the application will alert you.\n\nThis function develops for sb who is always careless."</string>
+	<string name="btn1_pick_up_des">If your phone had been taken by a stranger, tell him some information and ask him to do something right, send you phone back!</string>
+	<string name="pickup_default_text">"Hello, this is Michael's phone, can you take it to Helen? Her phone number is 12345, thank you!"</string>
+	<string name="pickup_set">Pick Up Setting</string>
+	<string name="pickup_set_des">Info for who pick your phone up</string> 
+
+<!-- 以下是找手機的相關字串 -->
+	<string name="find_phone">Looking for the phone</string>
+ 	<string name="find_phone_des">"Looking for the phone by SMS.\n\n1.Borrowing the phone from your friend.\n\n2.Sending the keyword which you set to your own phone.(For example: \"Where is my phone?\")\n\n3.After several minutes, you'll receive GeoLocation from SMS and indicate where your phone is."</string>
+ 	<string name="keyword_editor">"Keyword editor"</string>
+ 	<string name="cant_be_null">"Data can't be null！"</string>
+ 	<string name="add_success">Data saved！</string>
+ 	<string name="remove_success">Data removed！</string>
+ 	<string name="case_sensitive">Keywords is case sensitive!</string>
+ 	
+ <!-- 以下是密碼相關字串 -->
+	<string name="password_first_title">Type password</string>
+	<string name="password_origin">Original password</string>
+	<string name="password_can_be_null">Password can be null</string>
+	<string name="password_second_title">Type again</string>
+	<string name="password_wrong">Wrong!</string>
+	<string name="password_saved">Password saved！</string>
+	<string name="password_show">Show password</string>
+	<string name="password_type">Please Type</string>
+	<string name="password_title">Password Setting</string>
+	
+ <!-- 以下是Notify Bar裡的字串 -->
+    <string name="startfallprotect">Start to protect your phone</string>
+    <string name="startingfallprotect">The phone will alert when you crash.</string>
+    <string name="stopfallprotect">Stop protecting</string>
+    
+    <string name="location_name">GeoLocation</string>
+    <string name="start_location_update">Start to update GeoLocation</string>
+	<string name="stop_location_update">Close GeoLocation Updating</string>
+	<string name="location_updating">Geographic Location Updating</string>
+	<string name="no_geolocation_data">"Can't get data"</string>
+	<string name="location_update_time">Update Time︰</string>
+	
+<!-- 以下是GPS開啟的教導頁面 -->
+	<string name="GPS_title">Turn on GPS on your device</string>
+	<string name="GPS_des1">●Turn on GPS will not consume your battery.</string>
+	<string name="GPS_des2">●If you turn off GPS in the future, the program WILL be disabled to get GeoLocation.</string>
+	<string name="go_to">Forward</string>
+	<string name="please_location">●Please turn on︰\n\nPhone[Settings]→[Location and security]→[Use GPS satellites]</string>
+	
+<!-- 以下是Toast文字 -->
+	<string name="message_response">SMS has been sent!</string>
+
+<!-- 定位相關 -->
+	<string name="message_please_wait">"GeoGraphic Location Updating.. It will take several minutes then sending you a SMS with phone's GeoLocation."</string>	
+	<string name="message_nogps">"Because you didn't turn on GPS, the program can't get your phone's GeoLocation."</string>
+	
+<!-- 設定頁面 -->
+	<string name="setting_main">Main Setting</string>
+	<string name="password_protect">Password Protecting</string>	
+	<string name="password_protect_des">For privacy, you should turn on this function.</string>
+	<string name="password_close">Close Password Protecting</string>	
+	<string name="password_modify">Password modify</string>
+	<string name="sensitivity_set">Sensitivity Setting</string>
+	<string name="sensitivity_desc">"Low sensitivity" is hardest to detect crashing."</string>
+						
+</resources>
+
