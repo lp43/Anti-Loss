@@ -73,7 +73,11 @@ public class Fallen extends Activity{
 	 * 測試期間，讓我可以快速更改音量的變數
 	 * 不用每次都跑到程式碼裡去找設定
 	 */
-	public static int setVolumn = 0;
+	public static int setVolumn = 6;
+	/**
+	 * 記錄原始音量
+	 */
+	private static int previousVolumn = 6;
 	/**
 	 * 機器人圖案的ImageView
 	 */
@@ -194,6 +198,7 @@ public class Fallen extends Activity{
 			@Override
 			public void onClick(View v) {
 				Log.i(tag, "annimation pressed");
+				am.setStreamVolume(AudioManager.STREAM_MUSIC,previousVolumn, 0);
 				finish();
 				SwitchService.startService(Fallen.this,FallDetector.class);
 			}
@@ -237,6 +242,8 @@ public class Fallen extends Activity{
 		handler.post(reg_Gsensor);
 		
 		//調整媒體音量
+		previousVolumn = am.getStreamVolume(AudioManager.STREAM_MUSIC);
+		setVolumn = am.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
 		am.setStreamVolume(AudioManager.STREAM_MUSIC,setVolumn, 0);
 		
 	}
@@ -343,8 +350,8 @@ public class Fallen extends Activity{
 				}
 				
 				//取得震動服務
-//				myVibrator = (Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
-//				myVibrator.vibrate(1000);//震動1000秒
+				myVibrator = (Vibrator)getSystemService(Service.VIBRATOR_SERVICE);
+				myVibrator.vibrate(1000);//震動1000秒
 				
 			}
 			

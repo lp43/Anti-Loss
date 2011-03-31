@@ -33,7 +33,7 @@ public class Ahmydroid extends Activity {
 	 * 記錄當前的版本編號<br/>
 	 * 這個編號會被放在[Menu]的[關於]裡
 	 */
-	private String softVersion="v2.0.1";
+	private String softVersion="v2.0.2";
 	Button btn1,btn2,btn3,btn4;
 	AdView  adView = null;
 	
